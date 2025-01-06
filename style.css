@@ -751,5 +751,40 @@ input::placeholder{
     transition: all 0.4s;
     font-family: "Inter", serif;
 }
+.footer-hr{
+    width: 100%;
+    color: white;
+}
+.address{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.instagram{
+    margin-left: 10px;
+}
+.gmail{
+    margin-left: 10px;
+}
+.github{
+    margin-left: 10px;
+}
+.number{
+    margin-left: 10px;
+}
+.footer{
+    width: 50px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.897);
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    border-radius: 10px 10px 0 0;
+}
 
 
